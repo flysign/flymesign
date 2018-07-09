@@ -1,0 +1,1 @@
+app.audios=function(){var i=app.root;return aClick=new function(o,n){var a=new Audio;return a.src=i+o,a.volume=1,a.autoplay=!1,a.loop=!0,1!=n&&(a.loop=!1),a}("http://w.benbun.com/proj/shoufa/media/click.mp3"),{init:function(){},aClick:aClick}}();
