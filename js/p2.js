@@ -83,8 +83,9 @@ app.pages[2] = (function() {
         $('.p2-btn').click(function() {
             p3PlayerName = $('.p2-input').val().replace(/\s+/g, "");
             if (p3PlayerName) {
-                var inputLink = 'http://openapi2.benbang.com/api/blackword/verify?text=' + p3PlayerName;
-                ajaxGetCouplet(inputLink);
+//          	改了
+//              var inputLink = 'http://openapi2.benbang.com/api/blackword/verify?text=' + p3PlayerName;
+//              ajaxGetCouplet(inputLink);
             } else {
                 layer.msg('名字不能为空');
             }
